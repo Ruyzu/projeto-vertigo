@@ -96,6 +96,7 @@ outline: 1px solid var(--Purple);
 .login a:hover {
     text-decoration: underline;
 }
+
 .login button{
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -118,4 +119,19 @@ outline: 1px solid var(--Purple);
     font-weight: 700;
 }
 
+@media(min-width: 1000px){
+    header{
+        background-image: none;
+        justify-content: flex-start;
+        padding-inline: 7rem;
+    }
+
+    header img{
+        width: 10rem;
+    }
+
+    main{
+        padding-inline: 7rem;
+    }
+}
 /*  nome dacor, rgb, rgba, hex, hsl, hwb */
